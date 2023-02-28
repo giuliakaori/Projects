@@ -1,0 +1,230 @@
+
+ form label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#036;
+    font-weight:bold;
+    float:center;
+}
+form input {
+    background-color:#f2f2f2;
+    border:1px solid #000;
+    padding:5px;
+}
+textarea{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#036;
+    float:center;
+	background-color:#f2f2f2;
+    border:1px solid #000;
+    padding:5px;
+	}
+#body-adm{
+	background:url(../img/room.jpg)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fundo_adm{
+  width:940px;
+  height:auto;
+  margin:20px auto 30px auto;
+background-color:rgba(190,190,190,.6);
+/*border-top:2px solid #D7DF01;*/
+-webkit-box-shadow: 0px 0px 15px 10px rgba(190,190,190,.6);
+-moz-box-shadow: 0px 0px 15px 10px rgba(190,190,190,.6);
+box-shadow: 0px 0px 15px 10px rgba(190,190,190,.6);
+}
+.fundo_site{
+  width:940px;
+  height:auto;
+  margin:20px auto 30px auto;
+background-color: rgba(0,0,0,0.50); 
+/*border-top:2px solid #D7DF01;*/
+-webkit-box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.5);
+}
+.box_txt {
+  width:700px;
+  height:auto;
+  margin-top:auto;
+  margin-left:auto;
+  margin-bottom:50px;
+  margin-right:auto;
+  text-align:justify;
+}
+.box_txt small {
+	font-family: calibri;
+}
+.box_txt h1	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:28px;
+		color:#FFFFE8;
+		font-weight:bold;
+		margin-bottom:16px;
+}
+.box_txt h2	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:24px;
+		color:#FFFFCA;
+		font-weight:bold;
+		margin-bottom:16px;
+}
+.box_txt h3	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:20px;
+		color:#FFFFCA;
+		font-weight:bold;
+		margin-bottom:16px;
+}
+.box_txt h4	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		color:#FFFFCA;
+		font-weight:bold;
+		margin-bottom:16px;
+}
+.box_txt p	{
+		color:#FFFFFF;
+		font-family: Times, Times New Roman, serif;
+		font-size: 18px;
+		margin-bottom:16px;
+		text-indent:2em;
+		line-height:25px;
+}
+.box_txt p strong {
+	font-family: Arial Narrow;
+	font-weight:bold;}
+.msg{
+	width:700px;
+  height:auto;
+  margin-top:auto;
+  margin-left:auto;
+  margin-bottom:50px;
+  margin-right:auto;
+	background-color:rgba(255,255,160,.4);
+	}
+body{
+background:url(../img/AlucardShield.png)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  /*Lista com prefixo de cada navegador
+Google Chrome e Safari: -webkit-
+Mozilla Firefox: -moz-
+Internet Explorer: -ms-
+Opera: -o- */
+}
+.img_logo {
+width:700px;
+height:200px; 
+}
+button{
+	font-family:	helvetica;
+	font-size:	15px;
+}
+a{
+	font-family:	helvetica;
+	font-size:	15px;
+}
+li{
+	font-family:	verdana;
+}
+fieldset{
+	color:#fff
+	}
+.content {
+	color:#FFFF6C;
+	text-decoration:none;
+	font-size:18px;
+}
+.content:hover{
+	text-decoration:underline;
+	color:#FFFF6C;
+	font-weight:bold;
+}
+@media only screen and (max-width: 1200px) {
+	body{
+background:url(../img/AlucardShield_1280px.png)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fundo_site{
+  width:800px;
+  height:auto;
+  margin:20px auto 30px auto;
+}
+.box_txt {
+  width:600px;
+  height:auto;
+}
+.img_logo {
+width:700px;
+height:200px; 
+}
+@media only screen and (max-width: 1000px) {
+	body{
+background:url(../img/AlucardShield_1200px.png)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fundo_site{
+  width:600px;
+  height:auto;
+}
+.box_txt {
+  width:470px;
+  height:auto;
+}
+.img_logo {
+width:500px;
+height:150px; 
+}
+@media only screen and (max-width: 800px) {
+	body{
+background:url(../img/AlucardShield_1200px.png)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fundo_site{
+  width:500px;
+  height:auto;
+}
+.box_txt {
+  width:400px;
+  height:auto;
+}
+.img_logo {
+width:500px;
+height:150px; 
+}
+@media only screen and (max-width: 640px) {
+	body{
+background:url(../img/AlucardShield_1200px.png)center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fundo_site{
+  width:400px;
+  height:auto;
+}
+.box_txt {
+  width:300px;
+  height:auto;
+}
+.img_logo {
+width:400px;
+height:100px; 
+}
